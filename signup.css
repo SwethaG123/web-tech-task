@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    
+}
+.outer>.left{
+    background-color: black;
+    flex-basis: 55%;
+    width: 100%;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.right{
+    background-color: white;
+    flex-basis: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.left > form{
+    color: black;
+    background-color: azure;
+    margin-top: 40px;
+    display: block;
+    text-transform: capitalize;
+    padding: 20px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 2px 3px solid skyblue;
+    box-shadow: 10px 10px 10px skyblue;
+
+
+}
+
+.left > form input{
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0 20px;
+    border-radius: 2px;
+    radius: 3px;
+    cursor: pointer;
+
+}
+.left >form >label{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+button{
+    background-color: greenyellow;
+    border: none;
+    color: rgb(240, 248, 255);
+    font-weight: bolder;
+    width: 100%;
+    padding: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+h1{
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px skyblue;
+    margin-bottom: 40px;
+}
+.right >img{
+    display: flex;
+    width: 100%;
+}
+p{
+    color: aliceblue;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 60px;
+  
+}
+a{
+    color: aliceblue;
+    margin-left: 80px;
+}
+footer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+form > button:hover{
+    background-color: skyblue;
+}

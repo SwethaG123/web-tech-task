@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cartoon{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+#iron{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZPamFcA-5ykubbzqkDVRN05nYqaUtApmug&s");
+}
+#captionamerica{
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/3/2021/01/Avengers_Age_Of_Ultron-3e9986c.jpg?quality=90&resize=620,414");
+}
+#spiderman{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZrdE4wCGPwa-G7rekKmbP0z4vpnJrP3FPUg&s");
+
+}
+#thor{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4AqazyGOPPYuLflLn9aDXPL0mviVtKwI7wQ&s");
+}
+#hulk{
+    background-image: url("https://wallpapers.com/images/hd/hulk-pictures-cncrc9s4y7pzsvyd.jpg" );
+}
+h1{
+    color: beige;
+    font-size: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px burlywood;
+
+    
+}
+    
